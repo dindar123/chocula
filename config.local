@@ -2,7 +2,6 @@ module.exports = {
     apiPort: 3000,
     };
 var config = {};
-config.emailSettings.from = 'localhost';
 config.emailSettings.email = 'email';
 config.emailSettings.port = 'port';
 config.emailSettings.host = 'hos'
