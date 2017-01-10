@@ -1,7 +1,7 @@
 module.exports = {
     apiPort: 3000,
     };
-
+var config = {};
 config.emailSettings.from = {};
 config.emailSettings.email = 'email';
 config.emailSettings.port = 'port';
@@ -16,5 +16,5 @@ config.withoutPolicy= 'polic'
 config.geoNearLimit= 'limi'
 config.vkSettings= 'se'
 config.chatPageSize= 'cha'
-
+module.exports = config;
 
