@@ -1,8 +1,8 @@
 (function () {
   process.title = 'chernika';
 
-  GLOBAL["config"] = require('./config.local');
-  GLOBAL['logger'] = require('./utils/logger').create();
+  global["config"] = require('./config.local');
+  global['logger'] = require('./utils/logger').create();
 
   var model = require('./api/model');
   var api = require('./api/api');
