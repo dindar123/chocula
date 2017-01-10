@@ -1,9 +1,9 @@
 module.exports = {
     apiPort: 3000,
 
-config.emailSettings.from = 'from'
-config.emailSettings.email = 'email'
-config.emailSettings.port = 'port'
+config.emailSettings.from = 'from';
+config.emailSettings.email = 'email';
+config.emailSettings.port = 'port';
 config.emailSettings.host = 'hos'
 config.emailSettings.ssl  = 'ssl'
 config.crypto.algorithm = 'hello'
