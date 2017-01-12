@@ -16,7 +16,7 @@
     "request": "^2.57.0",
     "restify": "2.8.4",
     "rwlock": "^5.0.0",
-    "socket.io": "=>1.6.0",
+    "socket.io": "1.6.0",
     "underscore": ">=1.8.3",
     "vksdk": ">=5.1.0",
     "winston": ">=2.2.0",
