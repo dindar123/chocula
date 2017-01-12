@@ -6,7 +6,7 @@ module.exports = {
   init: function () {
 
     var s = config.dbSettings;
-    var connection = mongoose.connect('mongodb://' + s.host + ':' + s.port + '/' + s.database, function (err) {
+    var connection = mongoose.connect('mongodb://127.0.0.1:27017/test' + s.host + ':' + s.port + '/' + s.database, function (err) {
       if (err) {
         logger.error('Mongodb connection error: ' + err);
       }
