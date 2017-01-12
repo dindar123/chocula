@@ -70,7 +70,7 @@ function initBasicComponents() {
     var componentPath = root + '/api/' + component;
     fs.readdirSync(componentPath).forEach(function (file) {
       if (file.indexOf('.js') != -1) {
-        GLOBAL[file.split('.')[0]] = require(componentPath + '/' + file);
+        global[file.split('.')[0]] = require(componentPath + '/' + file);
       }
     })
   }
