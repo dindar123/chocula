@@ -15,21 +15,21 @@ module.exports = {
     //User
     var userSchema = require('./models/User');
     userSchema.index({"lastKnownPosition": "2dsphere"});
-    GLOBAL['User'] = mongoose.model('User', userSchema);
+    global['User'] = mongoose.model('User', userSchema);
 
     //Match
     var matchSchema = require('./models/Match');
-    GLOBAL['Match'] = mongoose.model('Match', matchSchema);
+    global['Match'] = mongoose.model('Match', matchSchema);
 
     //Messae
     var messageSchema = require('./models/Message');
-    GLOBAL['Message'] = mongoose.model('Message', messageSchema);
+    global['Message'] = mongoose.model('Message', messageSchema);
 
     var chatSchema = require('./models/Chat');
-    GLOBAL['Chat'] = mongoose.model('Chat', chatSchema);
+    global['Chat'] = mongoose.model('Chat', chatSchema);
 
     var reportSchema = require('./models/Report');
-    GLOBAL['Report'] = mongoose.model('Report', reportSchema);
+    global['Report'] = mongoose.model('Report', reportSchema);
   }
 }
 
